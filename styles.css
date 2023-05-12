@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#sub {
+  width: 70px;
+  height: 35px;
+  border-radius: 15px;
+}
+
+
+.input1 {
+  margin-left: 455px;
+  width: 589px;
+  height: 37px;
+  border-radius: 25px;
+  border-style: hidden;
+  position: relative;
+  padding: 2px;
+}
+
+
+#goo {
+    top: 25%;
+    font-size: 90px;
+    font-family: sans-serif;
+    text-align: center;
+    margin:auto;
+    padding: 155px 0;
+}
+
+body {
+    background-image: url(ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+a {
+  color: black;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 40px;
+}
+
+
+.foo ul {
+  float: right;
+  color: #2F6C8D;
+}
+
+.button-search {
+  height: 36px;
+  margin-right: 150px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: groove;
+}
+.main-div {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* flex: 1; */
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: center;
+
+
+
+}
+.button-div {
+display: flex;
+justify-content: center;
+
+
+}
+.header {
+  margin-bottom: 10px;
+  align-self: center;
+  flex-direction: column;
+}
